@@ -18,6 +18,36 @@ Proje Akışı
 4. Sonuçların Görüntülenmesi: Model, squat hareketinin doğru olup olmadığını analiz eder ve sonucu Streamlit arayüzüne geri gönderir.
 
 5. Sonuçların İndirilmesi: Kullanıcı, analiz sonuçlarını isterse bir dosya olarak indirebilir.
+   
+
+# Projenin Kullanışı
+
+FastAPI sunucusu ve Streamlit arayüzünden oluşur.
+
+## Özellikler
+- Gerçek zamanlı squat analizi için video dosyaları yükleyin.
+- Başlangıç ve profesyonel modları destekler.
+- Yapay zeka tahminlerine dayalı olarak squat formu hakkında geri bildirim sağlar.
+
+## Kurulum
+
+### Gereksinimler
+- Python 3.8 veya üzeri
+- pip (Python paket yöneticisi) direk requirements.txt dosyasını indirebilirsiniz. 
+
+### Yükleme
+1. Depoyu klonlayın:
+   ```bash
+   git clone https://github.com/kullanici-adi/ai-fitness-trainer.git
+
+2. Repository indirdikten sonra bash de ilk önce fastapi çalıştırmamız gerekir.
+    ```bash
+    uvicorn server:app --reload
+    
+3. Daha sonra streamlit çalıştırmamız gerekiyor.
+   ```bash
+     streamlit run app.py --server.enableXsrfProtection false
+
 
 Sonuç
 -- 
