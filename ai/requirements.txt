@@ -1,0 +1,14 @@
+streamlit
+streamlit-webrtc
+mediapipe
+opencv-python-headless
+numpy
+aiortc
+mlflow
+fastapi
+uvicorn
+os-sys
+collections
+tempfile
+requests
+cv2
